@@ -1,4 +1,4 @@
--- [[ PROJECT: Classic Retro Craftwars - Elite Customizable Hub (v15.5) ]]
+-- [[ PROJECT: Classic Retro Craftwars - Elite Customizable Hub ]]
 -- [[ ЧАСТЬ 4 ИЗ 4: Магниты с Заморозкой, Ротация, Полет и Финал ]]
 
 local Workspace = game:GetService("Workspace")
@@ -128,4 +128,4 @@ end)
 task.spawn(function() while true do ProcessWorldTriggers() task.wait(_G.CheatConfig.TriggerDelay) end end)
 task.spawn(function() while true do task.wait(_G.CheatConfig.ScheduledFlyInterval) if _G.CheatConfig.ScheduledFlyActive then ExecuteScheduledFly() end end end)
 print("[Elite Hub v15.5]: Последняя 4-я часть успешно загружена. Всё готово к фарму!")
-  
+    
